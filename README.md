@@ -122,5 +122,14 @@ Pendientes detectados al leer los archivos:
 - Las medidas DAX y las transformaciones originales de Power Query deben exportarse como texto para facilitar la revisión externa. No se extrajeron del PBIX en esta revisión.
 
 
+## Vista previa del dashboard
+
+### Impacto reportado por distrito
+![Impacto reportado por distrito](imagenes/resumen.png)
+
+### Evolución temporal
+![Evolución temporal del impacto](imagenes/evolucion.png)
+
+
 
 
