@@ -113,13 +113,7 @@ Orden lógico para una instalación nueva:
 7. Ejecutar `vw.resuemen_distrital.sql` para el resumen y las consultas analíticas de `Lluvias_intensas_porUBIGEO.sql`.
 8. Abrir el PBIX, ajustar su origen SQL y actualizar los datos. Verificar los resultados de referencia anteriores.
 
-Pendientes detectados al leer los archivos:
 
-- Las definiciones de las cuatro vistas utilizadas en el flujo SQL ya están guardadas y fueron revisadas como texto el 21/11/2026. No se ha ejecutado todavía una reconstrucción completa en una base nueva.
-- `vw_daño_por_distrito.sql` comprueba `dbo.población_distrital` con tilde, pero crea `dbo.poblacion_distrital` sin tilde. Unificar el nombre para que la comprobación de existencia sea consistente, especialmente en bases sensibles a acentos.
-- El mismo archivo declara UBIGEO de población como CHAR(10), mientras emergencias utiliza CHAR(6). Documentar o normalizar ambos a seis caracteres en una revisión posterior del esquema.
-- Durante el desarrollo del PBIX se cargaron dos tablas con nombres similares (`vw_panel_distital` y `vw_panel_distrital`). Las medidas y los ejes deben usar una misma tabla coherente. No eliminar una copia sin revisar sus dependencias.
-- Las medidas DAX y las transformaciones originales de Power Query deben exportarse como texto para facilitar la revisión externa. No se extrajeron del PBIX en esta revisión.
 
 
 ## Vista previa del dashboard
