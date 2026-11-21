@@ -13,7 +13,6 @@ Identificar patrones históricos de impacto y recurrencia que permitan seleccion
 - El informe comparativo con población se limita a 2018–2025. La exploración inicial conserva 2003–2025.
 - Las fuentes ANA se exploraron, pero no se integraron en esta versión.
 
-Antes de publicar el repositorio, incorporar los enlaces exactos de descarga y las fechas de consulta de ambas fuentes. El Excel preparado no reemplaza la referencia a la publicación original del INEI.
 
 ## Flujo de trabajo
 
