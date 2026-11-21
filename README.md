@@ -121,8 +121,6 @@ Pendientes detectados al leer los archivos:
 - Durante el desarrollo del PBIX se cargaron dos tablas con nombres similares (`vw_panel_distital` y `vw_panel_distrital`). Las medidas y los ejes deben usar una misma tabla coherente. No eliminar una copia sin revisar sus dependencias.
 - Las medidas DAX y las transformaciones originales de Power Query deben exportarse como texto para facilitar la revisión externa. No se extrajeron del PBIX en esta revisión.
 
-## Publicación del portafolio
 
-Incluir scripts, SQL completos, PBIX, capturas de las dos páginas y este README. Excluir `.venv`, `.idea` y `__pycache__`. Documentar la procedencia y las condiciones de reutilización de los datos antes de redistribuirlos. Conservar el original descargado separado de las salidas preparadas.
 
 
